@@ -1,0 +1,14 @@
+<?php
+
+//define the root path of the project
+
+use Pulse\Wizard\Wizard;
+
+define('ROOT_DIR', realpath('./'));
+define('APP_PATH', realpath(ROOT_DIR . '/app'));
+
+// Autoload Classes Booter
+require realpath(ROOT_DIR . '/Booter.php');
+
+// run the wizzard
+Wizard::run(array_slice($argv, 1));
