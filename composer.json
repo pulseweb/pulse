@@ -1,0 +1,15 @@
+{
+    "name": "pulseweb/pulse",
+    "description": "The Pulse Framework.",
+    "type": "project",
+    "require": {
+        "pulseweb/framework": "^0.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamad zbib",
+            "email": "mz32programmer@gmail.com"
+        }
+    ]
+}
