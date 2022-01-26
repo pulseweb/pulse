@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  margin-bottom: 1rem;
+}
+
+#root {
+  min-height: 100vh;
+  background: #dde;
+  display: grid;
+  place-items: center;
+}
+
+.inner {
+  max-width: 30rem;
+  background-color: #eef;
+  border: 1px #ccc solid;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
